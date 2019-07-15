@@ -1,0 +1,9 @@
+<p>inputs works!</p>
+
+
+<label>fname</label><input (input)="fnameChange($event.target.value)"/><br>
+<label>lname</label><input (input)="lnameChange($event.target.value)"/><br>
+<label>age</label><input type="number" (input)="ageChange($event.target.value)"/><br>
+<label>color</label><input (input)="colorChange($event.target.value)"/><br>
+
+<button (click)="saveRow()">save row</button>

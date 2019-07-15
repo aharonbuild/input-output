@@ -1,0 +1,27 @@
+<p>table works!</p>
+
+<button (click)="SmitBBQ()">BBQ</button>
+<table>
+    <thead>
+        <tr>
+            <th>f name</th>
+            <th>l name</th>
+            <th>age</th>
+            <th>color</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{ newItem.fname }}</td>
+            <td>{{ newItem.lname }}</td>
+            <td>{{ newItem.age }}</td>
+            <td>{{ newItem.color }}</td>
+        </tr>
+        <tr *ngFor="let x of items">
+            <td>{{ x.fname }}</td>
+            <td>{{ x.lname }}</td>
+            <td>{{ x.age }}</td>
+            <td>{{ x.color }}</td>
+        </tr>
+    </tbody>
+</table>

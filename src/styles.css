@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    width: 85%;
+    margin: 50px auto;
+}
+
+.flex{display: flex; justify-content: space-around;}
+.flex-col{display: flex; justify-content: space-around; flex-direction: column}
